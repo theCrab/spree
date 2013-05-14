@@ -241,9 +241,11 @@ en:
   spree:
     abbreviation: Abbreviation
     account: Account
+    account_updated: Account updated
     action: Action
     actions:
       cancel: Cancel
+      continue: Continue
       create: Create
       destroy: Destroy
       edit: Edit
@@ -268,7 +270,10 @@ en:
     add_stock: Add Stock
     add_stock_management: Add Stock Management
     add_to_cart: Add To Cart
+    add_variant: Add Variant
     additional_item: Additional Item Cost
+    address1: Address
+    address2: Address (contd.)
     adjustment: Adjustment
     adjustment_amount: Amount
     adjustment_successfully_closed: Adjustment has been successfully closed!
@@ -333,7 +338,7 @@ en:
     back_to_states_list: Back To States List
     back_to_stock_locations_list: Back to Stock Locations List
     back_to_stock_movements_list: Back to Stock Movements List
-    back_to_stock_transfers: Back to Stock Transfers List
+    back_to_stock_transfers_list: Back to Stock Transfers List
     back_to_store: Go Back To Store
     back_to_tax_categories_list: Back To Tax Categories List
     back_to_taxonomies_list: Back To Taxonomies List
@@ -353,6 +358,7 @@ en:
     cannot_create_returns: Cannot create returns as this order has no shipped units.
     cannot_perform_operation: Cannot perform requested operation
     cannot_set_shipping_method_without_address: Cannot set shipping method until customer details are provided.
+    capture: Capture
     card_code: Card Code
     card_number: Card Number
     card_type_is: Card type is
@@ -418,6 +424,7 @@ en:
     current_promotion_usage: ! 'Current Usage: %{count}'
     customer: Customer
     customer_details: Customer Details
+    customer_details_updated: Customer Details Updated
     customer_search: Customer Search
     cut: Cut
     dash:
@@ -445,7 +452,7 @@ en:
     delivery: Delivery
     depth: Depth
     description: Description
-    destination_location: Destination Location
+    destination: Destination
     destroy: Destroy
     discount_amount: Discount Amount
     dismiss_banner: No. Thanks! I'm not interested, do not display this message again
@@ -503,6 +510,7 @@ en:
     expiration: Expiration
     extension: Extension
     filename: Filename
+    fill_in_customer_info: Please fill in customer info
     filter_results: Filter Results
     finalize: Finalize
     first_item: First Item Cost
@@ -536,6 +544,7 @@ en:
     images: Images
     included_in_price: Included in Price
     included_price_validation: cannot be selected unless you have set a Default Tax Zone
+    instructions_to_reset_password: Please enter your email on the form below
     insufficient_stock: Insufficient stock available, only %{on_hand} remaining
     intercept_email_address: Intercept Email Address
     intercept_email_instructions: Override email recipient and replace with this address.
@@ -816,17 +825,18 @@ en:
     rate: Rate
     reason: Reason
     receive: receive
-    received: Received
     receive_stock: Receive Stock
+    received: Received
     reference: Reference
-    reference_number: Reference Number
     refund: Refund
+    register: Register
     registration: Registration
     remember_me: Remember me
     remove: Remove
     rename: Rename
     reports: Reports
     resend: Resend
+    reset_password: Reset my password
     response_code: Response Code
     resume: resume
     resumed: Resumed
@@ -920,7 +930,7 @@ en:
     smtp_send_all_emails_as_from_following_address: Send all mails as from the following address.
     smtp_send_copy_to_this_addresses: Sends a copy of all outgoing mails to this address. For multiple addresses, separate with commas.
     smtp_username: SMTP Username
-    source_location: Source Location
+    source: Source
     special_instructions: Special Instructions
     spree/order:
       coupon_code: Coupon Code
@@ -942,6 +952,8 @@ en:
     stock_transfers: Stock Transfers
     stock_movements_for_stock_location: Stock Movements for %{stock_location_name}
     stock_successfully_transferred: Stock was successfully transferred between locations.
+    stock_transfer: Stock Transfer
+    stock_transfers: Stock Transfers
     stop: Stop
     store: Store
     street_address: Street Address
@@ -1027,5 +1039,6 @@ en:
     your_cart_is_empty: Your cart is empty
     your_order_is_empty_add_product: Your order is empty, please search for and add a product above
     zip: Zip
+    zipcode: Zip Code
     zone: Zone
     zones: Zones
